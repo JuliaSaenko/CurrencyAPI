@@ -1,0 +1,30 @@
+.currency-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 50px;
+    padding: 0;
+
+    border-collapse: collapse;
+}
+
+.currency-list__row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 600px;
+}
+
+.currency-list th {
+    padding: 20px;
+    width: 50%;
+    font-weight: bold;
+    border: 1px solid #ddd;
+    background-color: deepskyblue;
+}
+
+.currency-list__item {
+    padding: 20px;
+    width: 50%;
+    border: 1px solid #ddd;
+}
+
